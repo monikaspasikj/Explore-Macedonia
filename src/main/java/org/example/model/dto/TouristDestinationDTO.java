@@ -9,4 +9,9 @@ import java.util.List;
 public class TouristDestinationDTO {
     private String name;
     private List<Place> containsPlace;
+
+    public TouristDestinationDTO(String name, List<Place> containsPlace) {
+        this.name = name;
+        this.containsPlace = containsPlace;
+    }
 }

@@ -1,0 +1,9 @@
+package org.example.model.exception;
+
+import org.springframework.http.HttpStatus;
+import org.springframework.web.bind.annotation.ResponseStatus;
+
+@ResponseStatus(HttpStatus.NOT_FOUND)
+public class TouristDestinationNotFound extends RuntimeException{
+    public TouristDestinationNotFound(){ super("Tourist Destination not found!");}
+}

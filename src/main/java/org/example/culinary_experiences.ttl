@@ -1,0 +1,98 @@
+@prefix schema: <http://schema.org/> .
+@prefix ex: <http://example.org/culinary_experiences/> .
+
+# Ресторани
+ex:Ресторан_Мора
+    a schema:Restaurant ;
+    schema:name "Ресторан Мора" ;
+    schema:location "Скопје" ;
+    schema:description "Модерен ресторан со интернационална кујна и одличен поглед на градот." .
+
+ex:Таверна_Воденица
+    a schema:Restaurant ;
+    schema:name "Таверна Воденица" ;
+    schema:location "Охрид" ;
+    schema:description "Традиционален ресторан со македонски специјалитети и домашна атмосфера." .
+
+ex:Ресторан_Пелистер
+    a schema:Restaurant ;
+    schema:name "Ресторан Пелистер" ;
+    schema:location "Битола" ;
+    schema:description "Популарен ресторан со локални јадења и богато мени." .
+
+ex:Ресторан_Далма
+    a schema:Restaurant ;
+    schema:name "Ресторан Далма" ;
+    schema:location "Струмица" ;
+    schema:description "Ресторан со морска храна и прекрасен амбиент." .
+
+# Кафе-барови
+ex:Кафе_Бар_Бастион
+    a schema:CafeOrCoffeeShop ;
+    schema:name "Кафе Бар Бастион" ;
+    schema:location "Битола" ;
+    schema:description "Популарен кафе бар со широк избор на кафе и коктели." .
+
+ex:Арт_Кафе
+    a schema:CafeOrCoffeeShop ;
+    schema:name "Арт Кафе" ;
+    schema:location "Прилеп" ;
+    schema:description "Уникатен кафе бар со изложби на локални уметници и жива музика." .
+
+ex:Кафе_Бар_Глобус
+    a schema:CafeOrCoffeeShop ;
+    schema:name "Кафе Бар Глобус" ;
+    schema:location "Куманово" ;
+    schema:description "Современо кафе со одлична атмосфера и вкусни десерти." .
+
+ex:Кафе_Бар_Елемент
+    a schema:CafeOrCoffeeShop ;
+    schema:name "Кафе Бар Елемент" ;
+    schema:location "Тетово" ;
+    schema:description "Стилски кафе бар со иновативни коктели и пријатна музика." .
+
+# Специјалитети
+ex:Ајвар
+    a schema:Specialty ;
+    schema:name "Ајвар" ;
+    schema:description "Традиционален македонски специјалитет направен од печени црвени пиперки и патлиџани." .
+
+ex:Тавче_Гравче
+    a schema:Specialty ;
+    schema:name "Тавче Гравче" ;
+    schema:description "Популарно јадење од грав, кое се готви во земјен сад и се пече во рерна." .
+
+ex:Пастрмајлија
+    a schema:Specialty ;
+    schema:name "Пастрмајлија" ;
+    schema:description "Македонска пита со месо, обично подготвена со свинско или јагнешко месо." .
+
+ex:Сарма
+    a schema:Specialty ;
+    schema:name "Сарма" ;
+    schema:description "Јадење од кисела зелка или лозови листови полнети со ориз и месо." .
+
+# Локални рецепти
+ex:Шопска_Салата
+    a schema:Recipe ;
+    schema:name "Шопска Салата" ;
+    schema:recipeIngredient "Домат", "Краставица", "Пиперка", "Сирење", "Маслинки" ;
+    schema:recipeInstructions "Сите состојки се сечат на ситни парчиња и се мешаат. Се додава сирењето изрендано одозгора и се гарнира со маслинки." .
+
+ex:Кифли
+    a schema:Recipe ;
+    schema:name "Кифли" ;
+    schema:recipeIngredient "Брашно", "Млеко", "Масло", "Квасец", "Сол", "Шеќер" ;
+    schema:recipeInstructions "Се замесува тесто од сите состојки, се остава да стаса, па се формираат кифли. Се печат во загреана рерна на 180 степени додека не поруменат." .
+
+ex:Мусака
+    a schema:Recipe ;
+    schema:name "Мусака" ;
+    schema:recipeIngredient "Компири", "Мелено месо", "Кромид", "Јајца", "Млеко" ;
+    schema:recipeInstructions "Компирите се сечат на кругови и се редат во тавче. Се додава пржено мелено месо со кромид, па повторно ред компири. Се прелива со јајца и млеко, и се пече во рерна." .
+
+ex:Зелник
+    a schema:Recipe ;
+    schema:name "Зелник" ;
+    schema:recipeIngredient "Брашно", "Вода", "Сол", "Масло", "Спанаќ", "Сирење" ;
+    schema:recipeInstructions "Се замесува тесто од брашно, вода и сол. Се расукуваат кори, кои се полнат со спанаќ и сирење. Се редат во тавче и се печат во рерна." .

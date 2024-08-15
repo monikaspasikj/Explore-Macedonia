@@ -12,4 +12,6 @@ public interface TouristDestinationRepository extends JpaRepository<TouristDesti
     List<TouristDestination> findByContainsPlaceContainingAndName(String name);
 
     List<TouristDestination> findByContainsPlaceContainingAndNameAndContainsPlaceType(String name, String type);;
+
+    List<TouristDestination> findByLocation(String location);
 }

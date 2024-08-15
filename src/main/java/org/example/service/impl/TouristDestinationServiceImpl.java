@@ -62,4 +62,13 @@ public class TouristDestinationServiceImpl implements TouristDestinationService 
     public void deleteTouristDestination(Long id) {
         repository.deleteById(id);
     }
+
+//    @Override
+//    public List<TouristDestinationDTO> findByLocation(String location) {
+//        List<TouristDestination> destinations = repository.findByLocation(location);
+//
+//        return destinations.stream()
+//                .map(entity -> new TouristDestinationDTO(entity.getName(), entity.getLocation(), entity.getDescription()))
+//                .collect(Collectors.toList());
+//    }
 }

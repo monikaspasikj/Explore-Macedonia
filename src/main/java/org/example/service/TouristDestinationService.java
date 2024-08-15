@@ -12,4 +12,6 @@ public interface TouristDestinationService {
     TouristDestinationDTO createTouristDestination(TouristDestinationDTO touristDestinationDTO);
     TouristDestinationDTO updateTouristDestination(Long id, TouristDestinationDTO touristDestinationDTO);
     void deleteTouristDestination(Long id);
+
+//    List<TouristDestinationDTO> findByLocation(String location);
 }

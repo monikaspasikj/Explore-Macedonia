@@ -4,7 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f2cdef9f-ade1-486e-9411-3410ff2a4bfe" name="Changes" comment="Added needed exceptions in model folder" />
+    <list default="true" id="f2cdef9f-ade1-486e-9411-3410ff2a4bfe" name="Changes" comment="[Configured] pom.xml file and main-application">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ExploreMacedoniaApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Explore-Macedonia.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/culinary_experiences.ttl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/cultural_heritage.ttl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/routes_and_transport.ttl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/service/CulinaryExperienceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/service/CulinaryExperienceService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/service/CulturalHeritageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/service/CulturalHeritageService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/service/RoutesAndTransportService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/service/RoutesAndTransportService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/service/TouristDestinationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/service/TouristDestinationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/service/impl/CulinaryExperienceServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/service/impl/CulinaryExperienceServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/service/impl/CulturalHeritageServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/service/impl/CulturalHeritageServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/service/impl/TouristDestinationServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/service/impl/TouristDestinationServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/tourist_destinations.ttl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Rdf/Culinary_experiences.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Rdf/Culinary_experiences.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Rdf/Cultural_heritage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Rdf/Cultural_heritage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Rdf/Routes_and_transport.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Rdf/Routes_and_transport.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Rdf/Tourist_destinations.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Rdf/Tourist_destinations.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Sparql/Culinary_experiences.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Sparql/Culinary_experiences.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Sparql/Cultural_heritage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Sparql/Cultural_heritage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Sparql/Routes_and_transport.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Sparql/Routes_and_transport.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Sparql/Tourist_destinations.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Sparql/Tourist_destinations.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,7 +48,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="models" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -44,23 +71,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Martina/IdeaProjects/Explore-Macedonia/pom.xml",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "vcs.Git",
-    "spring.configuration.checksum": "76a8df9d9ff3dcb9590422e6b1655a89",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Martina/IdeaProjects/Explore-Macedonia/pom.xml&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;76a8df9d9ff3dcb9590422e6b1655a89&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunManager">
+    <configuration name="ExploreMacedoniaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="Explore-Macedonia" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.ExploreMacedoniaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -74,6 +111,8 @@
       <workItem from="1722096902894" duration="1200000" />
       <workItem from="1722319707212" duration="507000" />
       <workItem from="1723705794813" duration="130000" />
+      <workItem from="1723896085056" duration="750000" />
+      <workItem from="1723896853255" duration="1011000" />
     </task>
     <task id="LOCAL-00001" summary="Merge remote-tracking branch 'origin/monikaspasikj' into models">
       <created>1722098045215</created>
@@ -125,6 +164,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Merge remote-tracking branch 'origin/monikaspasikj' into models" />
     <MESSAGE value="Added needed exceptions in model folder" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added needed exceptions in model folder" />
+    <MESSAGE value="[Configured] pom.xml file and main-application" />
+    <option name="LAST_COMMIT_MESSAGE" value="[Configured] pom.xml file and main-application" />
   </component>
 </project>

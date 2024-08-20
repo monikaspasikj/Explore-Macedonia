@@ -1,6 +1,5 @@
 package org.example.service;
 
-import org.example.model.CulturalHeritage;
 import org.example.model.dto.CulturalHeritageDTO;
 
 import java.util.List;

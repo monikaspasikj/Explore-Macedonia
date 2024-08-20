@@ -5,7 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f2cdef9f-ade1-486e-9411-3410ff2a4bfe" name="Changes" comment="[Configured] pom.xml file and main-application">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ExploreMacedoniaApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Explore-Macedonia.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/culinary_experiences.ttl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/cultural_heritage.ttl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/routes_and_transport.ttl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/service/CulinaryExperienceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/service/CulinaryExperienceService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/service/CulturalHeritageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/service/CulturalHeritageService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/service/RoutesAndTransportService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/service/RoutesAndTransportService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/service/TouristDestinationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/service/TouristDestinationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/service/impl/CulinaryExperienceServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/service/impl/CulinaryExperienceServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/service/impl/CulturalHeritageServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/service/impl/CulturalHeritageServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/service/impl/TouristDestinationServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/service/impl/TouristDestinationServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/tourist_destinations.ttl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Rdf/Culinary_experiences.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Rdf/Culinary_experiences.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Rdf/Cultural_heritage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Rdf/Cultural_heritage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Rdf/Routes_and_transport.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Rdf/Routes_and_transport.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Rdf/Tourist_destinations.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Rdf/Tourist_destinations.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Sparql/Culinary_experiences.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Sparql/Culinary_experiences.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Sparql/Cultural_heritage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Sparql/Cultural_heritage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Sparql/Routes_and_transport.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Sparql/Routes_and_transport.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Sparql/Tourist_destinations.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Sparql/Tourist_destinations.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +48,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main-application" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />

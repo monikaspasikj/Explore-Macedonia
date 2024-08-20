@@ -1,6 +1,5 @@
 package org.example.service;
 
-import org.example.model.RoutesAndTransport;
 import org.example.model.dto.RoutesAndTransportDTO;
 
 import java.util.List;

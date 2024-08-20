@@ -1,6 +1,5 @@
 package org.example.service;
 
-import org.example.model.CulinaryExperience;
 import org.example.model.dto.CulinaryExperienceDTO;
 
 import java.util.List;

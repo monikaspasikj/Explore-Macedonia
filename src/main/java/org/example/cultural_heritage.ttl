@@ -1,0 +1,96 @@
+@prefix schema: <http://schema.org/> .
+@prefix geo: <http://www.geonames.org/ontology#> .
+@prefix ex: <http://example.org/cultural_heritage/> .
+
+# Културни објекти
+ex:Црква_Света_Софија
+    a schema:Place ;
+    schema:name "Црква Света Софија" ;
+    schema:description "Средновековна црква изградена во 11 век, позната по своите фрески и архитектура." ;
+    geo:location "Охрид" .
+
+ex:Шарена_Џамија
+    a schema:Place ;
+    schema:name "Шарена Џамија" ;
+    schema:description "Позната џамија од 15 век со уникатни и живописни декорации." ;
+    geo:location "Тетово" .
+
+ex:Свети_Пантелејмон
+    a schema:Place ;
+    schema:name "Свети Пантелејмон" ;
+    schema:description "Црква од 12 век, позната по својата архитектура и важни фрески." ;
+    geo:location "Скопје" .
+
+ex:Антички_театар
+    a schema:Place ;
+    schema:name "Антички театар" ;
+    schema:description "Театар од хеленистичкиот период, кој сè уште се користи за културни настани и претстави." ;
+    geo:location "Охрид" .
+
+ex:Цареви_Кули
+    a schema:Place ;
+    schema:name "Цареви Кули" ;
+    schema:description "Средновековна тврдина со историски и археолошки значење, со поглед кон градот Струмица." ;
+    geo:location "Струмица" .
+
+# Фестивали
+ex:Охридско_Лето
+    a schema:Event ;
+    schema:name "Охридско Лето" ;
+    schema:description "Меѓународен музички и сценски фестивал кој се одржува секое лето, привлекувајќи уметници и посетители од целиот свет." ;
+    geo:location "Охрид" .
+
+ex:Струмички_Карневал
+    a schema:Event ;
+    schema:name "Струмички Карневал" ;
+    schema:description "Еден од најстарите и најпознатите карневали на Балканот, со учесници и посетители од различни земји." ;
+    geo:location "Струмица" .
+
+ex:Тешкото
+    a schema:Event ;
+    schema:name "Тешкото" ;
+    schema:description "Традиционален македонски фестивал кој се одржува секоја година во Галичник, познат по свадбарските обичаи и народните песни и танци." ;
+    geo:location "Галичник" .
+
+ex:Скопски_Џез_Фестивал
+    a schema:Event ;
+    schema:name "Скопски Џез Фестивал" ;
+    schema:description "Годишен музички фестивал кој привлекува врвни светски и домашни џез музичари." ;
+    geo:location "Скопје" .
+
+ex:Браќа_Манаки
+    a schema:Event ;
+    schema:name "Браќа Манаки" ;
+    schema:description "Меѓународен фестивал на филмската камера, именуван по браќата Манаки, пионери на филмската уметност на Балканот." ;
+    geo:location "Битола" .
+
+# Обичаи
+ex:Колење_на_Сурова
+    a schema:IntangibleCulturalHeritage ;
+    schema:name "Колење на Сурова" ;
+    schema:description "Традиционален зимски обичај кој се изведува во различни региони на Македонија, поврзан со празникот Василица." ;
+    geo:location "Разни региони" .
+
+ex:Гулаби
+    a schema:IntangibleCulturalHeritage ;
+    schema:name "Гулаби" ;
+    schema:description "Традиционален обичај поврзан со Велигден, каде што младите луѓе играат народни игри и песни." ;
+    geo:location "Прилеп" .
+
+ex:Богојавление
+    a schema:IntangibleCulturalHeritage ;
+    schema:name "Богојавление" ;
+    schema:description "Традиционален обичај кој се одбележува на празникот Богојавление, со фрлање на крст во вода и негово извлекување." ;
+    geo:location "Разни региони" .
+
+ex:Василичарски_обичаи
+    a schema:IntangibleCulturalHeritage ;
+    schema:name "Василичарски обичаи" ;
+    schema:description "Традиционален карневал кој се одржува на Василица, познат по своите сатирични маски и претстави." ;
+    geo:location "Вевчани" .
+
+ex:Лазарување
+    a schema:IntangibleCulturalHeritage ;
+    schema:name "Лазарување" ;
+    schema:description "Традиционален обичај што се одржува пред Велигден, каде што девојки пеат песни и играат народни танци." ;
+    geo:location "Разни региони" .

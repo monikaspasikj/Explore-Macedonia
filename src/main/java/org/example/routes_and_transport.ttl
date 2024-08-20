@@ -1,0 +1,70 @@
+@prefix schema: <http://schema.org/> .
+@prefix geo: <http://www.geonames.org/ontology#> .
+@prefix ex: <http://example.org/routes_and_transport/> .
+
+# Географски податоци за патишта
+ex:Автопат_A1
+    a schema:Route ;
+    schema:name "Автопат А1" ;
+    schema:location "Северна Македонија" ;
+    schema:description "Главен автопат кој го поврзува северниот и јужниот дел на земјата, дел од европскиот пат Е75." .
+
+ex:Пат_D1
+    a schema:Route ;
+    schema:name "Пат Д1" ;
+    schema:location "Скопје - Тетово" ;
+    schema:description "Главен пат што ги поврзува Скопје и Тетово, дел од коридорот 8." .
+
+ex:Пат_P1305
+    a schema:Route ;
+    schema:name "Пат P1305" ;
+    schema:location "Охрид - Струга" ;
+    schema:description "Регионален пат кој ги поврзува Охрид и Струга, покрај Охридското Езеро." .
+
+ex:Автопат_A2
+    a schema:Route ;
+    schema:name "Автопат А2" ;
+    schema:location "Куманово - Охрид" ;
+    schema:description "Главен автопат кој го поврзува источниот и западниот дел на земјата, дел од европскиот пат Е65." .
+
+# Препорачани патни правци
+ex:Рута_Скопје_Охрид
+    a schema:Route ;
+    schema:name "Скопје - Охрид" ;
+    schema:description "Најбрз патен правец преку автопатот А2, со живописни пејзажи и неколку места за одмор." .
+
+ex:Рута_Битола_Прилеп_Кавадарци
+    a schema:Route ;
+    schema:name "Битола - Прилеп - Кавадарци" ;
+    schema:description "Патен правец преку патот Р1301, со можност за посета на винските региони околу Кавадарци." .
+
+ex:Рута_Скопје_Штип
+    a schema:Route ;
+    schema:name "Скопје - Штип" ;
+    schema:description "Брз и безбеден правец преку новиот автопат, идеален за деловни патувања." .
+
+ex:Рута_Тетово_Маврово
+    a schema:Route ;
+    schema:name "Тетово - Маврово" ;
+    schema:description "Патен правец кој води до Националниот парк Маврово, популарен за зимски спортови и летен туризам." .
+
+# Транспортни можности
+ex:Транспорт_Автобус
+    a schema:Transportation ;
+    schema:transportationMode "Автобус" ;
+    schema:description "Редовни меѓуградски автобуски линии кои ги поврзуваат сите поголеми градови и туристички места." .
+
+ex:Транспорт_Воз
+    a schema:Transportation ;
+    schema:transportationMode "Воз" ;
+    schema:description "Железничка мрежа која ги поврзува главните градови, со редовни возни линии и пристап до соседните земји." .
+
+ex:Транспорт_Автомобил
+    a schema:Transportation ;
+    schema:transportationMode "Автомобил" ;
+    schema:description "Рент-а-кар услуги и такси компании се достапни во сите поголеми градови, овозможувајќи флексибилно патување." .
+
+ex:Транспорт_Авион
+    a schema:Transportation ;
+    schema:transportationMode "Авион" ;
+    schema:description "Меѓународни аеродроми во Скопје и Охрид, со редовни летови до главните европски дестинации." .

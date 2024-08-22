@@ -4,8 +4,71 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f2cdef9f-ade1-486e-9411-3410ff2a4bfe" name="Changes" comment="[Configured] pom.xml file and main-application">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/culinary_experiences.ttl" afterDir="false" />
+    <list default="true" id="f2cdef9f-ade1-486e-9411-3410ff2a4bfe" name="Changes" comment="Frontend configuration">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/flex-slider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/fontawesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/owl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/templatemo-woox-travel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/about-content-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/about-left-image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/banner-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/banner-02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/banner-03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/banner-04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/best-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/best-02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/best-03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/best-04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/best-05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/cities-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/cities-02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/cities-03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/cities-04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/country-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/country-02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/country-03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/cta-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/deals-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/deals-02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/deals-03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/deals-04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/heading-bg-02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/heading-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/offers-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/offers-02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/offers-03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/jquery/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/jquery/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/jquery/jquery.min.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/jquery/jquery.slim.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/jquery/jquery.slim.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/jquery/jquery.slim.min.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/isotope.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/isotope.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/owl-carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/popup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/tabs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/webfonts/fa-brands-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/webfonts/fa-brands-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/webfonts/fa-regular-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/webfonts/fa-regular-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/webfonts/fa-solid-900.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/webfonts/fa-solid-900.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/webfonts/fa-v4compatibility.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/webfonts/fa-v4compatibility.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/culinary_experiences.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/deals.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/reservation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +80,7 @@
       <list>
         <option value="Enum" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -26,7 +90,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main-application" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -52,11 +116,12 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Martina/IdeaProjects/Explore-Macedonia/pom.xml&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Martina/IdeaProjects/Explore-Macedonia/src/main/resources/templates&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -67,6 +132,21 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Martina\IdeaProjects\Explore-Macedonia\src\main\resources\templates" />
+      <recent name="C:\Users\Martina\IdeaProjects\Explore-Macedonia\src\main\resources\static" />
+      <recent name="C:\Users\Martina\IdeaProjects\Explore-Macedonia\src\main\resources" />
+      <recent name="C:\Users\Martina\IdeaProjects\Explore-Macedonia\src\main\resources\static\css\js" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Martina\IdeaProjects\Explore-Macedonia\src\main\resources\static\webfonts" />
+      <recent name="C:\Users\Martina\IdeaProjects\Explore-Macedonia\src\main\resources\static\images" />
+      <recent name="C:\Users\Martina\IdeaProjects\Explore-Macedonia\src\main\resources\static\js" />
+      <recent name="C:\Users\Martina\IdeaProjects\Explore-Macedonia\src\main\resources\static\css" />
+      <recent name="C:\Users\Martina\IdeaProjects\Explore-Macedonia\src\main\resources\static" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="ExploreMacedoniaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="Explore-Macedonia" />
@@ -91,6 +171,8 @@
       <workItem from="1723705794813" duration="130000" />
       <workItem from="1723896085056" duration="750000" />
       <workItem from="1723896853255" duration="1011000" />
+      <workItem from="1724241604876" duration="1441000" />
+      <workItem from="1724299206736" duration="597000" />
     </task>
     <task id="LOCAL-00001" summary="Merge remote-tracking branch 'origin/monikaspasikj' into models">
       <created>1722098045215</created>
@@ -106,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1722320172441</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added needed ttl files">
+      <created>1724135663751</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1724135663751</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,6 +232,8 @@
     <MESSAGE value="Merge remote-tracking branch 'origin/monikaspasikj' into models" />
     <MESSAGE value="Added needed exceptions in model folder" />
     <MESSAGE value="[Configured] pom.xml file and main-application" />
-    <option name="LAST_COMMIT_MESSAGE" value="[Configured] pom.xml file and main-application" />
+    <MESSAGE value="Added needed ttl files" />
+    <MESSAGE value="Frontend configuration" />
+    <option name="LAST_COMMIT_MESSAGE" value="Frontend configuration" />
   </component>
 </project>

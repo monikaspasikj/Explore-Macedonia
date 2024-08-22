@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Culinary Experiences</title>
+</head>
+<body>
+<h1>List of Culinary Experiences</h1>
+<ul>
+    <li th:each="experience : ${experiences}">
+        <span th:text="${experience.name}">Experience Name</span>
+        - <span th:text="${experience.location}">Location</span>
+    </li>
+</ul>
+</body>
+</html>

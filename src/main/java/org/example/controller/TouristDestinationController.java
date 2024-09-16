@@ -3,14 +3,14 @@ package org.example.controller;
 import org.example.model.dto.TouristDestinationDTO;
 import org.example.service.TouristDestinationService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-@RestController
-@RequestMapping("/api/tourist-destinations")
+@Controller
+@RequestMapping("/tourist-destinations")
 public class TouristDestinationController {
 
     private final TouristDestinationService service;
@@ -21,44 +21,54 @@ public class TouristDestinationController {
     }
 
     @GetMapping
-    public ResponseEntity<List<TouristDestinationDTO>> getAllTouristDestinations() {
+    public String getAllTouristDestinations(Model model) {
         List<TouristDestinationDTO> destinations = service.getAllTouristDestinations();
-        return new ResponseEntity<>(destinations, HttpStatus.OK);
+        model.addAttribute("destinations", destinations);
+        return "destinations/list";
     }
 
     @GetMapping("/{id}")
-    public ResponseEntity<TouristDestinationDTO> getTouristDestinationById(@PathVariable Long id) {
+    public String getTouristDestinationById(@PathVariable Long id, Model model) {
         TouristDestinationDTO destination = service.getTouristDestinationById(id);
-        return new ResponseEntity<>(destination, HttpStatus.OK);
+        model.addAttribute("destination", destination);
+        return "destinations/detail";
     }
 
     @GetMapping("/search/by-name")
-    public ResponseEntity<List<TouristDestinationDTO>> findByName(@RequestParam String name) {
+    public String findByName(@RequestParam String name, Model model) {
         List<TouristDestinationDTO> destinations = service.findByName(name);
-        return new ResponseEntity<>(destinations, HttpStatus.OK);
+        model.addAttribute("destinations", destinations);
+        return "destinations/list";
     }
 
-//    @GetMapping("/search/by-location")
-//    public ResponseEntity<List<TouristDestinationDTO>> findByLocation(@RequestParam String location) {
-//        List<TouristDestinationDTO> destinations = service.findByLocation(location);
-//        return new ResponseEntity<>(destinations, HttpStatus.OK);
-//    }
+    @GetMapping("/create")
+    public String showCreateDestinationForm(Model model) {
+        model.addAttribute("destination", new TouristDestinationDTO());
+        return "destinations/create";
+    }
 
     @PostMapping
-    public ResponseEntity<TouristDestinationDTO> createTouristDestination(@RequestBody TouristDestinationDTO dto) {
+    public String createTouristDestination(@ModelAttribute TouristDestinationDTO dto) {
         TouristDestinationDTO createdDestination = service.createTouristDestination(dto);
-        return new ResponseEntity<>(createdDestination, HttpStatus.CREATED);
+        return "redirect:/tourist-destinations/" + createdDestination.getId();
     }
 
-    @PutMapping("/{id}")
-    public ResponseEntity<TouristDestinationDTO> updateTouristDestination(@PathVariable Long id, @RequestBody TouristDestinationDTO dto) {
-        TouristDestinationDTO updatedDestination = service.updateTouristDestination(id, dto);
-        return new ResponseEntity<>(updatedDestination, HttpStatus.OK);
+    @GetMapping("/{id}/edit")
+    public String showUpdateDestinationForm(@PathVariable Long id, Model model) {
+        TouristDestinationDTO destination = service.getTouristDestinationById(id);
+        model.addAttribute("destination", destination);
+        return "destinations/edit";
     }
 
-    @DeleteMapping("/{id}")
-    public ResponseEntity<Void> deleteTouristDestination(@PathVariable Long id) {
+    @PostMapping("/{id}")
+    public String updateTouristDestination(@PathVariable Long id, @ModelAttribute TouristDestinationDTO dto) {
+        service.updateTouristDestination(id, dto);
+        return "redirect:/tourist-destinations/" + id;
+    }
+
+    @PostMapping("/{id}/delete")
+    public String deleteTouristDestination(@PathVariable Long id) {
         service.deleteTouristDestination(id);
-        return new ResponseEntity<>(HttpStatus.NO_CONTENT);
+        return "redirect:/tourist-destinations";
     }
 }

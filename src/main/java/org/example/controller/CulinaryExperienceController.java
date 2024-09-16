@@ -3,14 +3,14 @@ package org.example.controller;
 import org.example.model.dto.CulinaryExperienceDTO;
 import org.example.service.CulinaryExperienceService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-@RestController
-@RequestMapping("/api/culinary-experiences")
+@Controller
+@RequestMapping("/culinary-experiences")
 public class CulinaryExperienceController {
 
     private final CulinaryExperienceService service;
@@ -21,44 +21,62 @@ public class CulinaryExperienceController {
     }
 
     @GetMapping
-    public ResponseEntity<List<CulinaryExperienceDTO>> getAllCulinaryExperiences() {
+    public String getAllCulinaryExperiences(Model model) {
         List<CulinaryExperienceDTO> experiences = service.getAllCulinaryExperiences();
-        return new ResponseEntity<>(experiences, HttpStatus.OK);
+        model.addAttribute("experiences", experiences);
+        return "culinary-experiences/list"; // View шаблон "list.html"
     }
 
     @GetMapping("/{id}")
-    public ResponseEntity<CulinaryExperienceDTO> getCulinaryExperienceById(@PathVariable Long id) {
+    public String getCulinaryExperienceById(@PathVariable Long id, Model model) {
         CulinaryExperienceDTO experience = service.getCulinaryExperienceById(id);
-        return new ResponseEntity<>(experience, HttpStatus.OK);
+        model.addAttribute("experience", experience);
+        return "culinary-experiences/detail"; // View шаблон "detail.html"
     }
 
     @GetMapping("/search/by-name")
-    public ResponseEntity<List<CulinaryExperienceDTO>> findByName(@RequestParam String name) {
+    public String findByName(@RequestParam String name, Model model) {
         List<CulinaryExperienceDTO> experiences = service.findByName(name);
-        return new ResponseEntity<>(experiences, HttpStatus.OK);
+        model.addAttribute("experiences", experiences);
+        return "culinary-experiences/list"; // View шаблон "list.html"
     }
 
     @GetMapping("/search/by-location")
-    public ResponseEntity<List<CulinaryExperienceDTO>> findByLocation(@RequestParam String location) {
+    public String findByLocation(@RequestParam String location, Model model) {
         List<CulinaryExperienceDTO> experiences = service.findByLocation(location);
-        return new ResponseEntity<>(experiences, HttpStatus.OK);
+        model.addAttribute("experiences", experiences);
+        return "culinary-experiences/list"; // View шаблон "list.html"
+    }
+
+    @GetMapping("/create")
+    public String showCreateForm(Model model) {
+        model.addAttribute("culinaryExperience", new CulinaryExperienceDTO());
+        return "culinary-experiences/create"; // View шаблон "create.html"
     }
 
     @PostMapping
-    public ResponseEntity<CulinaryExperienceDTO> createCulinaryExperience(@RequestBody CulinaryExperienceDTO dto) {
+    public String createCulinaryExperience(@ModelAttribute CulinaryExperienceDTO dto, Model model) {
         CulinaryExperienceDTO createdExperience = service.createCulinaryExperience(dto);
-        return new ResponseEntity<>(createdExperience, HttpStatus.CREATED);
+        model.addAttribute("experience", createdExperience);
+        return "redirect:/culinary-experiences/" + createdExperience.getId(); // Редиректирање на деталите за ново создаденото искуство
     }
 
-    @PutMapping("/{id}")
-    public ResponseEntity<CulinaryExperienceDTO> updateCulinaryExperience(@PathVariable Long id, @RequestBody CulinaryExperienceDTO dto) {
-        CulinaryExperienceDTO updatedExperience = service.updateCulinaryExperience(id, dto);
-        return new ResponseEntity<>(updatedExperience, HttpStatus.OK);
+    @GetMapping("/{id}/edit")
+    public String showUpdateForm(@PathVariable Long id, Model model) {
+        CulinaryExperienceDTO experience = service.getCulinaryExperienceById(id);
+        model.addAttribute("culinaryExperience", experience);
+        return "culinary-experiences/edit";
     }
 
-    @DeleteMapping("/{id}")
-    public ResponseEntity<Void> deleteCulinaryExperience(@PathVariable Long id) {
+    @PostMapping("/{id}")
+    public String updateCulinaryExperience(@PathVariable Long id, @ModelAttribute CulinaryExperienceDTO dto) {
+        service.updateCulinaryExperience(id, dto);
+        return "redirect:/culinary-experiences/" + id;
+    }
+
+    @PostMapping("/{id}/delete")
+    public String deleteCulinaryExperience(@PathVariable Long id) {
         service.deleteCulinaryExperience(id);
-        return new ResponseEntity<>(HttpStatus.NO_CONTENT);
+        return "redirect:/culinary-experiences";
     }
 }

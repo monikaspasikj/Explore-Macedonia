@@ -9,8 +9,17 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-@RestController
-@RequestMapping("/api/cultural-heritages")
+import org.example.model.dto.CulturalHeritageDTO;
+import org.example.service.CulturalHeritageService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
+
+@Controller
+@RequestMapping("/cultural-heritages")
 public class CulturalHeritageController {
 
     private final CulturalHeritageService service;
@@ -21,44 +30,63 @@ public class CulturalHeritageController {
     }
 
     @GetMapping
-    public ResponseEntity<List<CulturalHeritageDTO>> getAllCulturalHeritages() {
+    public String getAllCulturalHeritages(Model model) {
         List<CulturalHeritageDTO> culturalHeritages = service.getAllCulturalHeritages();
-        return new ResponseEntity<>(culturalHeritages, HttpStatus.OK);
+        model.addAttribute("culturalHeritages", culturalHeritages);
+        return "cultural-heritages/list";
     }
 
     @GetMapping("/{id}")
-    public ResponseEntity<CulturalHeritageDTO> getCulturalHeritageById(@PathVariable Long id) {
+    public String getCulturalHeritageById(@PathVariable Long id, Model model) {
         CulturalHeritageDTO culturalHeritage = service.getCulturalHeritageById(id);
-        return new ResponseEntity<>(culturalHeritage, HttpStatus.OK);
+        model.addAttribute("culturalHeritage", culturalHeritage);
+        return "cultural-heritages/detail";
     }
 
     @GetMapping("/search/by-name")
-    public ResponseEntity<List<CulturalHeritageDTO>> findByName(@RequestParam String name) {
+    public String findByName(@RequestParam String name, Model model) {
         List<CulturalHeritageDTO> culturalHeritages = service.findByName(name);
-        return new ResponseEntity<>(culturalHeritages, HttpStatus.OK);
+        model.addAttribute("culturalHeritages", culturalHeritages);
+        return "cultural-heritages/list";
     }
 
     @GetMapping("/search/by-location")
-    public ResponseEntity<List<CulturalHeritageDTO>> findByLocation(@RequestParam String location) {
+    public String findByLocation(@RequestParam String location, Model model) {
         List<CulturalHeritageDTO> culturalHeritages = service.findByLocation(location);
-        return new ResponseEntity<>(culturalHeritages, HttpStatus.OK);
+        model.addAttribute("culturalHeritages", culturalHeritages);
+        return "cultural-heritages/list";
+    }
+
+    @GetMapping("/create")
+    public String showCreateForm(Model model) {
+        model.addAttribute("culturalHeritage", new CulturalHeritageDTO());
+        return "cultural-heritages/create";
     }
 
     @PostMapping
-    public ResponseEntity<CulturalHeritageDTO> createCulturalHeritage(@RequestBody CulturalHeritageDTO dto) {
+    public String createCulturalHeritage(@ModelAttribute CulturalHeritageDTO dto, Model model) {
         CulturalHeritageDTO createdCulturalHeritage = service.createCulturalHeritage(dto);
-        return new ResponseEntity<>(createdCulturalHeritage, HttpStatus.CREATED);
+        model.addAttribute("culturalHeritage", createdCulturalHeritage);
+        return "redirect:/cultural-heritages/" + createdCulturalHeritage.getId();
     }
 
-    @PutMapping("/{id}")
-    public ResponseEntity<CulturalHeritageDTO> updateCulturalHeritage(@PathVariable Long id, @RequestBody CulturalHeritageDTO dto) {
-        CulturalHeritageDTO updatedCulturalHeritage = service.updateCulturalHeritage(id, dto);
-        return new ResponseEntity<>(updatedCulturalHeritage, HttpStatus.OK);
+    @GetMapping("/{id}/edit")
+    public String showUpdateForm(@PathVariable Long id, Model model) {
+        CulturalHeritageDTO culturalHeritage = service.getCulturalHeritageById(id);
+        model.addAttribute("culturalHeritage", culturalHeritage);
+        return "cultural-heritages/edit";
     }
 
-    @DeleteMapping("/{id}")
-    public ResponseEntity<Void> deleteCulturalHeritage(@PathVariable Long id) {
+    @PostMapping("/{id}")
+    public String updateCulturalHeritage(@PathVariable Long id, @ModelAttribute CulturalHeritageDTO dto) {
+        service.updateCulturalHeritage(id, dto);
+        return "redirect:/cultural-heritages/" + id;
+    }
+
+    @PostMapping("/{id}/delete")
+    public String deleteCulturalHeritage(@PathVariable Long id) {
         service.deleteCulturalHeritage(id);
-        return new ResponseEntity<>(HttpStatus.NO_CONTENT);
+        return "redirect:/cultural-heritages";
     }
 }
+

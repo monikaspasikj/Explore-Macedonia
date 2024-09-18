@@ -2,6 +2,7 @@ package org.example.service.impl;
 
 import org.example.model.TouristDestination;
 import org.example.model.dto.TouristDestinationDTO;
+import org.example.model.enums.Place;
 import org.example.model.exception.TouristDestinationNotFound;
 import org.example.repository.TouristDestinationRepository;
 import org.example.service.TouristDestinationService;
@@ -13,10 +14,12 @@ import java.util.stream.Collectors;
 
 @Service
 public class TouristDestinationServiceImpl implements TouristDestinationService {
+
     private final TouristDestinationRepository repository;
+
     @Autowired
     public TouristDestinationServiceImpl(TouristDestinationRepository repository){
-        this.repository=repository;
+        this.repository = repository;
     }
 
     @Override
@@ -28,13 +31,28 @@ public class TouristDestinationServiceImpl implements TouristDestinationService 
 
     @Override
     public TouristDestinationDTO getTouristDestinationById(Long id) {
-        var entity = repository.findById(id).orElseThrow(() -> new TouristDestinationNotFound());
+        var entity = repository.findById(id)
+                .orElseThrow(() -> new TouristDestinationNotFound());
         return new TouristDestinationDTO(entity.getName(), entity.getContainsPlace());
     }
 
     @Override
     public List<TouristDestinationDTO> findByName(String name) {
-        return repository.findByContainsPlaceContainingAndName(name).stream()
+        return repository.findByName(name).stream()
+                .map(entity -> new TouristDestinationDTO(entity.getName(), entity.getContainsPlace()))
+                .collect(Collectors.toList());
+    }
+
+    @Override
+    public List<TouristDestinationDTO> findByPlaceAndName(String containsPlace, String name) {
+        return repository.findByContainsPlaceContainingAndName(containsPlace, name).stream()
+                .map(entity -> new TouristDestinationDTO(entity.getName(), entity.getContainsPlace()))
+                .collect(Collectors.toList());
+    }
+
+    @Override
+    public List<TouristDestinationDTO> findByLocation(String location) {
+        return repository.findByLocation(location).stream()
                 .map(entity -> new TouristDestinationDTO(entity.getName(), entity.getContainsPlace()))
                 .collect(Collectors.toList());
     }
@@ -44,30 +62,23 @@ public class TouristDestinationServiceImpl implements TouristDestinationService 
         var entity = new TouristDestination();
         entity.setName(dto.getName());
         entity.setContainsPlace(dto.getContainsPlace());
+        entity.setLocation(dto.getLocation());
         entity = repository.save(entity);
         return new TouristDestinationDTO(entity.getName(), entity.getContainsPlace());
     }
-
     @Override
     public TouristDestinationDTO updateTouristDestination(Long id, TouristDestinationDTO dto) {
         var entity = repository.findById(id).orElseThrow(() -> new TouristDestinationNotFound());
         entity.setName(dto.getName());
         entity.setContainsPlace(dto.getContainsPlace());
+        entity.setLocation(dto.getLocation());
         entity = repository.save(entity);
         return new TouristDestinationDTO(entity.getName(), entity.getContainsPlace());
     }
+
 
     @Override
     public void deleteTouristDestination(Long id) {
         repository.deleteById(id);
     }
-
-//    @Override
-//    public List<TouristDestinationDTO> findByLocation(String location) {
-//        List<TouristDestination> destinations = repository.findByLocation(location);
-//
-//        return destinations.stream()
-//                .map(entity -> new TouristDestinationDTO(entity.getName(), entity.getLocation(), entity.getDescription()))
-//                .collect(Collectors.toList());
-//    }
 }

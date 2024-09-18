@@ -9,9 +9,12 @@ import java.util.List;
 @Repository
 public interface TouristDestinationRepository extends JpaRepository<TouristDestination, Long> {
 
-    List<TouristDestination> findByContainsPlaceContainingAndName(String name);
+    // Find destinations by name
+    List<TouristDestination> findByName(String name);
 
-    List<TouristDestination> findByContainsPlaceContainingAndNameAndContainsPlaceType(String name, String type);;
+    // Find destinations by name and place
+    List<TouristDestination> findByContainsPlaceContainingAndName(String containsPlace, String name);
 
+    // Find destinations by location
     List<TouristDestination> findByLocation(String location);
 }

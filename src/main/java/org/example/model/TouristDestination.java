@@ -14,6 +14,7 @@ public class TouristDestination {
     private String name;
     @ElementCollection
     private List<Place> containsPlace;
+    private String location;
 
 }
 

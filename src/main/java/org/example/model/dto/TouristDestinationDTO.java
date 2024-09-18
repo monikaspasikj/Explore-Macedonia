@@ -10,6 +10,7 @@ public class TouristDestinationDTO {
     private Long id;
     private String name;
     private List<Place> containsPlace;
+    private String location;
 
     public TouristDestinationDTO() {}
 

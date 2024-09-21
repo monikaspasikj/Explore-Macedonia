@@ -5,114 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f2cdef9f-ade1-486e-9411-3410ff2a4bfe" name="Changes" comment="Frontend configuration">
-      <change afterPath="$PROJECT_DIR$/rdflib.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/config/WebConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/dist/515.rdflib.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/dist/515.rdflib.min.js.LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/dist/515.rdflib.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/dist/789.rdflib.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/dist/rdflib.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/dist/rdflib.min.js.LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/dist/rdflib.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/scripts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/tourist-destinations.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/example/config/WebConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/templates/dist/515.rdflib.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/templates/dist/515.rdflib.min.js.LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/templates/dist/515.rdflib.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/templates/dist/789.rdflib.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/templates/dist/rdflib.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/templates/dist/rdflib.min.js.LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/templates/dist/rdflib.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/templates/scripts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/templates/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/templates/tourist-destinations.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/culinaryexperience.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/controller/TouristDestinationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/controller/TouristDestinationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/model/TouristDestination.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/model/TouristDestination.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/model/dto/TouristDestinationDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/model/dto/TouristDestinationDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/repository/TouristDestinationRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/repository/TouristDestinationRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/service/TouristDestinationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/service/TouristDestinationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/service/impl/TouristDestinationServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/service/impl/TouristDestinationServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/animate.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/flex-slider.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/fontawesome.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/owl.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/templatemo-woox-travel.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/about-content-bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/about-left-image.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/banner-01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/banner-02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/banner-03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/banner-04.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/best-01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/best-02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/best-03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/best-04.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/best-05.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/cities-01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/cities-02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/cities-03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/cities-04.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/country-01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/country-02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/country-03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/cta-bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/deals-01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/deals-02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/deals-03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/deals-04.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/heading-bg-02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/heading-bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/offers-01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/offers-02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/offers-03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/jquery/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/jquery/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/jquery/jquery.min.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/jquery/jquery.slim.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/jquery/jquery.slim.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/jquery/jquery.slim.min.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/custom.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/isotope.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/isotope.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/owl-carousel.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/popup.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/tabs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/webfonts/fa-brands-400.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/webfonts/fa-brands-400.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/webfonts/fa-regular-400.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/webfonts/fa-regular-400.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/webfonts/fa-solid-900.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/webfonts/fa-solid-900.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/webfonts/fa-v4compatibility.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/webfonts/fa-v4compatibility.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/about.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/culinary_experiences.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/deals.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/reservation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/controller/CulinaryExperienceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/controller/CulinaryExperienceController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/culinary_experiences.ttl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/culinary_experiences.ttl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Rdf/Culinary_experiences.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Rdf/Culinary_experiences.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Rdf/Cultural_heritage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Rdf/Cultural_heritage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Rdf/Routes_and_transport.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Rdf/Routes_and_transport.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Rdf/Tourist_destinations.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Rdf/Tourist_destinations.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/example/controller/CulinaryExperienceController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/controller/CulinaryExperienceController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/example/controller/CulturalHeritageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/controller/CulturalHeritageController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/example/controller/RoutesAndTransportController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/controller/RoutesAndTransportController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/controller/TouristDestinationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/controller/TouristDestinationController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/model/CulinaryExperience.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/model/CulinaryExperience.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/model/CulturalHeritage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/model/CulturalHeritage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/model/RoutesAndTransport$Route.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/model/RoutesAndTransport$Route.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/model/RoutesAndTransport$Transportation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/model/RoutesAndTransport$Transportation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/model/RoutesAndTransport.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/model/RoutesAndTransport.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/example/model/TouristDestination.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/model/TouristDestination.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/example/model/dto/CulinaryExperienceDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/model/dto/CulinaryExperienceDTO.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/example/model/dto/CulturalHeritageDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/model/dto/CulturalHeritageDTO.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/example/model/dto/RoutesAndTransportDTO$RouteDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/model/dto/RoutesAndTransportDTO$RouteDTO.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/example/model/dto/RoutesAndTransportDTO$TransportationDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/model/dto/RoutesAndTransportDTO$TransportationDTO.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/example/model/dto/TouristDestinationDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/model/dto/TouristDestinationDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/repository/TouristDestinationRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/repository/TouristDestinationRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/service/TouristDestinationService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/service/TouristDestinationService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/service/impl/CulinaryExperienceServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/service/impl/CulinaryExperienceServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/service/impl/CulturalHeritageServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/service/impl/CulturalHeritageServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/service/impl/RoutesAndTransportServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/service/impl/RoutesAndTransportServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/example/service/impl/TouristDestinationServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/service/impl/TouristDestinationServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/tourist-destinations.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/tourist-destinations.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,10 +42,10 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
         <option value="CSS File" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -221,5 +140,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

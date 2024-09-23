@@ -1,4 +1,5 @@
 @prefix schema: <http://schema.org/> .
+@prefix geo: <http://www.geonames.org/ontology#> .
 @prefix ex: <http://example.org/culinary_experiences/> .
 
 # Ресторани

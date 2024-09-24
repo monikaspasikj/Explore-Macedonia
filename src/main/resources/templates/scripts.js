@@ -1,13 +1,12 @@
 const backendUrl = 'http://localhost:8080/tourist-destinations/rdf';
 
 document.addEventListener('DOMContentLoaded', () => {
-    fetchRdfData(); // Initially fetch and display all destinations
+    fetchRdfData();
 
-    // Add event listener for the search input to detect changes
     const searchInput = document.getElementById('search-input');
     searchInput.addEventListener('input', () => {
         const searchTerm = searchInput.value.toLowerCase().trim();
-        fetchRdfData(searchTerm); // Call fetchRdfData with the current search term
+        fetchRdfData(searchTerm);
     });
 });
 
@@ -35,7 +34,6 @@ function displayRdfData(rdfData, searchTerm = '') {
 
     const destinations = store.statementsMatching(undefined, schema('name'), undefined);
 
-    // Filter destinations based on the search term (case-insensitive and partial matches)
     const destinationsHtml = destinations
         .filter(dest => dest.object.value.toLowerCase().includes(searchTerm))
         .map(dest => {

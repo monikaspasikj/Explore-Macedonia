@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f2cdef9f-ade1-486e-9411-3410ff2a4bfe" name="Changes" comment="Frontend configuration">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/tourist_destinations.ttl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/tourist_destinations.ttl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/scripts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/tourist-destinations.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/tourist-destinations.html" afterDir="false" />
-    </list>
+    <list default="true" id="f2cdef9f-ade1-486e-9411-3410ff2a4bfe" name="Changes" comment="Frontend configuration" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

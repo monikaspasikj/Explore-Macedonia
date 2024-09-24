@@ -6,33 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="f2cdef9f-ade1-486e-9411-3410ff2a4bfe" name="Changes" comment="Frontend configuration">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/culinaryexperience.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/controller/CulinaryExperienceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/controller/CulinaryExperienceController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/culinary_experiences.ttl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/culinary_experiences.ttl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Rdf/Culinary_experiences.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Rdf/Culinary_experiences.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Rdf/Cultural_heritage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Rdf/Cultural_heritage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Rdf/Routes_and_transport.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Rdf/Routes_and_transport.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Rdf/Tourist_destinations.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Rdf/Tourist_destinations.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/controller/CulinaryExperienceController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/controller/CulinaryExperienceController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/controller/CulturalHeritageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/controller/CulturalHeritageController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/controller/RoutesAndTransportController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/controller/RoutesAndTransportController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/model/CulinaryExperience.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/model/CulinaryExperience.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/model/CulturalHeritage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/model/CulturalHeritage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/model/RoutesAndTransport$Route.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/model/RoutesAndTransport$Route.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/model/RoutesAndTransport$Transportation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/model/RoutesAndTransport$Transportation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/model/RoutesAndTransport.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/model/RoutesAndTransport.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/model/TouristDestination.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/model/TouristDestination.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/model/dto/CulinaryExperienceDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/model/dto/CulinaryExperienceDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/model/dto/CulturalHeritageDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/model/dto/CulturalHeritageDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/model/dto/RoutesAndTransportDTO$RouteDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/model/dto/RoutesAndTransportDTO$RouteDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/model/dto/RoutesAndTransportDTO$TransportationDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/model/dto/RoutesAndTransportDTO$TransportationDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/model/dto/TouristDestinationDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/model/dto/TouristDestinationDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/service/impl/CulinaryExperienceServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/service/impl/CulinaryExperienceServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/service/impl/CulturalHeritageServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/service/impl/CulturalHeritageServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/service/impl/RoutesAndTransportServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/service/impl/RoutesAndTransportServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/service/impl/TouristDestinationServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/service/impl/TouristDestinationServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/tourist-destinations.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/tourist-destinations.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/tourist_destinations.ttl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/tourist_destinations.ttl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/scripts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/tourist-destinations.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/tourist-destinations.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

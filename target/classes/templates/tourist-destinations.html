@@ -5,12 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tourist Destinations</title>
   <link rel="stylesheet" href="styles.css">
-  <!-- Add the reference to rdflib.min.js -->
   <script src="dist/rdflib.min.js"></script>
 </head>
 <body>
 <header>
-  <h1>Туристички дестинации</h1>
+  <h1>Tourist destinations</h1>
 </header>
 <section>
   <h1>Search Tourist Destinations by Name</h1>
@@ -30,6 +29,12 @@
 
 </section>
 <main>
+  <!-- Add search form for filtering by name -->
+  <section id="search-form">
+    <input type="text" id="search-input" placeholder="Search by name..." />
+    <button id="search-button">Search</button>
+  </section>
+
   <section id="rdf-display">
     <!-- RDF data will be displayed here -->
   </section>

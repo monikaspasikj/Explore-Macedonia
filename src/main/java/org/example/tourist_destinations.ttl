@@ -2,152 +2,152 @@
 @prefix geo: <http://www.geonames.org/ontology#> .
 @prefix ex: <http://example.org/tourist_destinations/> .
 
-# Охрид
-ex:Охрид
+# Ohrid
+ex:Ohrid
     a schema:City ;
-    schema:name "Охрид" ;
-    schema:containsPlace ex:Охридско_Езеро, ex:Самоилова_Тврдина, ex:Црква_Свети_Јован_Канео, ex:Музеј_на_Охрид .
+    schema:name "Ohrid" ;
+    schema:containsPlace ex:Ohrid_Lake, ex:Samuil_Fortress, ex:Church_of_St_John_Kaneo, ex:Museum_of_Ohrid .
 
-ex:Охридско_Езеро
+ex:Ohrid_Lake
     a schema:TouristAttraction ;
-    schema:name "Охридско Езеро" ;
-    schema:description "Едно од најстарите и најдлабоките езера во Европа, познато по својата кристално чиста вода." ;
-    schema:containedInPlace ex:Охрид .
+    schema:name "Ohrid Lake" ;
+    schema:description "One of the oldest and deepest lakes in Europe, known for its crystal clear water." ;
+    schema:containedInPlace ex:Ohrid .
 
-ex:Самоилова_Тврдина
+ex:Samuil_Fortress
     a schema:TouristAttraction ;
-    schema:name "Самоилова Тврдина" ;
-    schema:description "Средновековна тврдина која датира од времето на Цар Самоил." ;
-    schema:containedInPlace ex:Охрид .
+    schema:name "Samuil Fortress" ;
+    schema:description "A medieval fortress dating back to the time of Tsar Samuil." ;
+    schema:containedInPlace ex:Ohrid .
 
-ex:Црква_Свети_Јован_Канео
+ex:Church_of_St_John_Kaneo
     a schema:TouristAttraction ;
-    schema:name "Црква Свети Јован Канео" ;
-    schema:description "Позната црква лоцирана на карпа над Охридското Езеро, со прекрасен поглед кон езерото." ;
-    schema:containedInPlace ex:Охрид .
+    schema:name "Church of St. John at Kaneo" ;
+    schema:description "A famous church located on a cliff above Ohrid Lake, offering a stunning view of the lake." ;
+    schema:containedInPlace ex:Ohrid .
 
-ex:Музеј_на_Охрид
+ex:Museum_of_Ohrid
     a schema:Museum ;
-    schema:name "Музеј на Охрид" ;
-    schema:description "Музеј кој ги прикажува богатата историја и култура на Охрид и околината." ;
-    schema:containedInPlace ex:Охрид .
+    schema:name "Museum of Ohrid" ;
+    schema:description "A museum showcasing the rich history and culture of Ohrid and its surroundings." ;
+    schema:containedInPlace ex:Ohrid .
 
-# Скопје
-ex:Скопје
+# Skopje
+ex:Skopje
     a schema:City ;
-    schema:name "Скопје" ;
-    schema:containsPlace ex:Кале, ex:Камен_Мост, ex:Музеј_на_Македонија, ex:Парк_на_Природата_Водно .
+    schema:name "Skopje" ;
+    schema:containsPlace ex:Kale, ex:Stone_Bridge, ex:Museum_of_Macedonia, ex:Vodno_Nature_Park .
 
-ex:Кале
+ex:Kale
     a schema:TouristAttraction ;
-    schema:name "Кале" ;
-    schema:description "Средновековна тврдина со поглед кон центарот на Скопје." ;
-    schema:containedInPlace ex:Скопје .
+    schema:name "Kale" ;
+    schema:description "A medieval fortress overlooking the center of Skopje." ;
+    schema:containedInPlace ex:Skopje .
 
-ex:Камен_Мост
+ex:Stone_Bridge
     a schema:TouristAttraction ;
-    schema:name "Камен Мост" ;
-    schema:description "Мост од османлискиот период кој ги поврзува двата дела на градот." ;
-    schema:containedInPlace ex:Скопје .
+    schema:name "Stone Bridge" ;
+    schema:description "A bridge from the Ottoman period connecting both sides of the city." ;
+    schema:containedInPlace ex:Skopje .
 
-ex:Музеј_на_Македонија
+ex:Museum_of_Macedonia
     a schema:Museum ;
-    schema:name "Музеј на Македонија" ;
-    schema:description "Национален музеј кој ги прикажува историјата, културата и уметноста на Македонија." ;
-    schema:containedInPlace ex:Скопје .
+    schema:name "Museum of Macedonia" ;
+    schema:description "The national museum that exhibits the history, culture, and art of Macedonia." ;
+    schema:containedInPlace ex:Skopje .
 
-ex:Парк_на_Природата_Водно
+ex:Vodno_Nature_Park
     a schema:TouristAttraction ;
-    schema:name "Парк на Природата Водно" ;
-    schema:description "Популарно место за рекреација и планинарење, со крстот Милениум на врвот." ;
-    schema:containedInPlace ex:Скопје .
+    schema:name "Vodno Nature Park" ;
+    schema:description "A popular spot for recreation and hiking, featuring the Millennium Cross at the top." ;
+    schema:containedInPlace ex:Skopje .
 
-# Битола
-ex:Битола
+# Bitola
+ex:Bitola
     a schema:City ;
-    schema:name "Битола" ;
-    schema:containsPlace ex:Хераклеја_Линкестис, ex:Широк_Сокак, ex:Музеј_на_Битола, ex:Пелистер .
+    schema:name "Bitola" ;
+    schema:containsPlace ex:Heraclea_Lyncestis, ex:Shirok_Sokak, ex:Museum_of_Bitola, ex:Pelister .
 
-ex:Хераклеја_Линкестис
+ex:Heraclea_Lyncestis
     a schema:TouristAttraction ;
-    schema:name "Хераклеја Линкестис" ;
-    schema:description "Антички град основан од Филип II Македонски, со значајни археолошки остатоци." ;
-    schema:containedInPlace ex:Битола .
+    schema:name "Heraclea Lyncestis" ;
+    schema:description "An ancient city founded by Philip II of Macedon, with significant archaeological remains." ;
+    schema:containedInPlace ex:Bitola .
 
-ex:Широк_Сокак
+ex:Shirok_Sokak
     a schema:TouristAttraction ;
-    schema:name "Широк Сокак" ;
-    schema:description "Главна пешачка улица со многу кафулиња, ресторани и историски згради." ;
-    schema:containedInPlace ex:Битола .
+    schema:name "Shirok Sokak" ;
+    schema:description "The main pedestrian street lined with cafes, restaurants, and historic buildings." ;
+    schema:containedInPlace ex:Bitola .
 
-ex:Музеј_на_Битола
+ex:Museum_of_Bitola
     a schema:Museum ;
-    schema:name "Музеј на Битола" ;
-    schema:description "Музеј кој ги документира историјата и културата на Битола и нејзината околина." ;
-    schema:containedInPlace ex:Битола .
+    schema:name "Museum of Bitola" ;
+    schema:description "A museum documenting the history and culture of Bitola and its surroundings." ;
+    schema:containedInPlace ex:Bitola .
 
-ex:Пелистер
+ex:Pelister
     a schema:TouristAttraction ;
-    schema:name "Пелистер" ;
-    schema:description "Национален парк познат по својата биолошка разновидност и убави пејзажи." ;
-    schema:containedInPlace ex:Битола .
+    schema:name "Pelister" ;
+    schema:description "A national park known for its biodiversity and scenic landscapes." ;
+    schema:containedInPlace ex:Bitola .
 
-# Тетово
-ex:Тетово
+# Tetovo
+ex:Tetovo
     a schema:City ;
-    schema:name "Тетово" ;
-    schema:containsPlace ex:Шарена_Џамија, ex:Тетовско_Кале, ex:Лешочки_Манастир, ex:Музеј_на_Тетово .
+    schema:name "Tetovo" ;
+    schema:containsPlace ex:Painted_Mosque, ex:Tetovo_Fortress, ex:Leshok_Monastery, ex:Museum_of_Tetovo .
 
-ex:Шарена_Џамија
+ex:Painted_Mosque
     a schema:TouristAttraction ;
-    schema:name "Шарена Џамија" ;
-    schema:description "Позната по своите уникатни и живописни декорации, оваа џамија е еден од симболите на Тетово." ;
-    schema:containedInPlace ex:Тетово .
+    schema:name "Painted Mosque" ;
+    schema:description "Known for its unique and vibrant decorations, this mosque is one of the symbols of Tetovo." ;
+    schema:containedInPlace ex:Tetovo .
 
-ex:Тетовско_Кале
+ex:Tetovo_Fortress
     a schema:TouristAttraction ;
-    schema:name "Тетовско Кале" ;
-    schema:description "Средновековна тврдина со панорамски поглед на градот и околината." ;
-    schema:containedInPlace ex:Тетово .
+    schema:name "Tetovo Fortress" ;
+    schema:description "A medieval fortress offering panoramic views of the city and its surroundings." ;
+    schema:containedInPlace ex:Tetovo .
 
-ex:Лешочки_Манастир
+ex:Leshok_Monastery
     a schema:TouristAttraction ;
-    schema:name "Лешочки Манастир" ;
-    schema:description "Историски манастир познат по својата духовна и културна вредност." ;
-    schema:containedInPlace ex:Тетово .
+    schema:name "Leshok Monastery" ;
+    schema:description "A historic monastery known for its spiritual and cultural significance." ;
+    schema:containedInPlace ex:Tetovo .
 
-ex:Музеј_на_Тетово
+ex:Museum_of_Tetovo
     a schema:Museum ;
-    schema:name "Музеј на Тетово" ;
-    schema:description "Музеј кој ги прикажува историјата и културата на Тетово и околината." ;
-    schema:containedInPlace ex:Тетово .
+    schema:name "Museum of Tetovo" ;
+    schema:description "A museum showcasing the history and culture of Tetovo and its surroundings." ;
+    schema:containedInPlace ex:Tetovo .
 
-# Куманово
-ex:Куманово
+# Kumanovo
+ex:Kumanovo
     a schema:City ;
-    schema:name "Куманово" ;
-    schema:containsPlace ex:Кокино, ex:Црква_Свети_Никола, ex:Спомен_Костурница, ex:Музеј_на_Куманово .
+    schema:name "Kumanovo" ;
+    schema:containsPlace ex:Kokino, ex:Church_of_St_Nicholas, ex:Memorial_Ossuary, ex:Museum_of_Kumanovo .
 
-ex:Кокино
+ex:Kokino
     a schema:TouristAttraction ;
-    schema:name "Кокино" ;
-    schema:description "Мегалитска опсерваторија стара околу 4000 години, призната како значаен археолошки локалитет." ;
-    schema:containedInPlace ex:Куманово .
+    schema:name "Kokino" ;
+    schema:description "A megalithic observatory around 4000 years old, recognized as a significant archaeological site." ;
+    schema:containedInPlace ex:Kumanovo .
 
-ex:Црква_Свети_Никола
+ex:Church_of_St_Nicholas
     a schema:TouristAttraction ;
-    schema:name "Црква Свети Никола" ;
-    schema:description "Историска црква позната по својата архитектура и фрески." ;
-    schema:containedInPlace ex:Куманово .
+    schema:name "Church of St. Nicholas" ;
+    schema:description "A historic church known for its architecture and frescoes." ;
+    schema:containedInPlace ex:Kumanovo .
 
-ex:Спомен_Костурница
+ex:Memorial_Ossuary
     a schema:TouristAttraction ;
-    schema:name "Спомен Костурница" ;
-    schema:description "Меморијален комплекс посветен на паднатите борци од Втората светска војна." ;
-    schema:containedInPlace ex:Куманово .
+    schema:name "Memorial Ossuary" ;
+    schema:description "A memorial complex dedicated to the fallen fighters of World War II." ;
+    schema:containedInPlace ex:Kumanovo .
 
-ex:Музеј_на_Куманово
+ex:Museum_of_Kumanovo
     a schema:Museum ;
-    schema:name "Музеј на Куманово" ;
-    schema:description "Музеј кој ги документира историјата и културата на Куманово и неговата околина." ;
-    schema:containedInPlace ex:Куманово .
+    schema:name "Museum of Kumanovo" ;
+    schema:description "A museum documenting the history and culture of Kumanovo and its surroundings." ;
+    schema:containedInPlace ex:Kumanovo .

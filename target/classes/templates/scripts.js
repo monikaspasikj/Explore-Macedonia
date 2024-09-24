@@ -3,9 +3,9 @@ const backendUrl = 'http://localhost:8080/tourist-destinations/rdf';
 document.addEventListener('DOMContentLoaded', () => {
     fetchRdfData();
 
-    // Add event listener for the search button
-    document.getElementById('search-button').addEventListener('click', () => {
-        const searchTerm = document.getElementById('search-input').value.toLowerCase();
+    const searchInput = document.getElementById('search-input');
+    searchInput.addEventListener('input', () => {
+        const searchTerm = searchInput.value.toLowerCase().trim();
         fetchRdfData(searchTerm);
     });
 });
@@ -35,7 +35,7 @@ function displayRdfData(rdfData, searchTerm = '') {
     const destinations = store.statementsMatching(undefined, schema('name'), undefined);
 
     const destinationsHtml = destinations
-        .filter(dest => dest.object.value.toLowerCase().includes(searchTerm)) // Filter by name
+        .filter(dest => dest.object.value.toLowerCase().includes(searchTerm))
         .map(dest => {
             const name = dest.object.value;
             const descriptionStmt = store.any(dest.subject, schema('description'));
@@ -51,7 +51,8 @@ function displayRdfData(rdfData, searchTerm = '') {
                     <p><strong>Location:</strong> ${containedInPlace}</p>
                 </div>
             `;
-        }).join('');
+        })
+        .join('');
 
-    rdfDisplayElement.innerHTML = destinationsHtml;
+    rdfDisplayElement.innerHTML = destinationsHtml || '<p>No results found</p>';
 }

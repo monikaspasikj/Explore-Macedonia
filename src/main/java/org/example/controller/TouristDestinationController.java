@@ -45,7 +45,7 @@ public class TouristDestinationController {
     public String getAllTouristDestinations(Model model) {
         List<TouristDestinationDTO> destinations = service.getAllTouristDestinations();
         model.addAttribute("destinations", destinations);
-        return "destinations/list";
+        return "tourist-destinations";
     }
 
     @GetMapping("/{id}")
@@ -59,7 +59,7 @@ public class TouristDestinationController {
     public String findByName(@RequestParam String name, Model model) {
         List<TouristDestinationDTO> destinations = service.findByName(name);
         model.addAttribute("destinations", destinations);
-        return "destinations/list";
+        return "tourist-destinations";
     }
 
     @GetMapping("/search/by-place-name")

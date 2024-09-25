@@ -2,98 +2,98 @@
 @prefix geo: <http://www.geonames.org/ontology#> .
 @prefix ex: <http://example.org/culinary_experiences/> .
 
-# Ресторани
-ex:Ресторан_Мора
+# Restaurants
+ex:Restaurant_Mora
     a schema:Restaurant ;
-    schema:name "Ресторан Мора" ;
-    schema:location "Скопје" ;
-    schema:description "Модерен ресторан со интернационална кујна и одличен поглед на градот." .
+    schema:name "Restaurant Mora" ;
+    schema:location "Skopje" ;
+    schema:description "A modern restaurant with international cuisine and a great view of the city." .
 
-ex:Таверна_Воденица
+ex:Taverna_Vodenica
     a schema:Restaurant ;
-    schema:name "Таверна Воденица" ;
-    schema:location "Охрид" ;
-    schema:description "Традиционален ресторан со македонски специјалитети и домашна атмосфера." .
+    schema:name "Taverna Vodenica" ;
+    schema:location "Ohrid" ;
+    schema:description "A traditional restaurant with Macedonian specialties and a homely atmosphere." .
 
-ex:Ресторан_Пелистер
+ex:Restaurant_Pelister
     a schema:Restaurant ;
-    schema:name "Ресторан Пелистер" ;
-    schema:location "Битола" ;
-    schema:description "Популарен ресторан со локални јадења и богато мени." .
+    schema:name "Restaurant Pelister" ;
+    schema:location "Bitola" ;
+    schema:description "A popular restaurant with local dishes and a rich menu." .
 
-ex:Ресторан_Далма
+ex:Restaurant_Dalma
     a schema:Restaurant ;
-    schema:name "Ресторан Далма" ;
-    schema:location "Струмица" ;
-    schema:description "Ресторан со морска храна и прекрасен амбиент." .
+    schema:name "Restaurant Dalma" ;
+    schema:location "Strumica" ;
+    schema:description "A seafood restaurant with a beautiful ambiance." .
 
-# Кафе-барови
-ex:Кафе_Бар_Бастион
+# Cafés and Bars
+ex:Cafe_Bar_Bastion
     a schema:CafeOrCoffeeShop ;
-    schema:name "Кафе Бар Бастион" ;
-    schema:location "Битола" ;
-    schema:description "Популарен кафе бар со широк избор на кафе и коктели." .
+    schema:name "Cafe Bar Bastion" ;
+    schema:location "Bitola" ;
+    schema:description "A popular café bar with a wide selection of coffee and cocktails." .
 
-ex:Арт_Кафе
+ex:Art_Cafe
     a schema:CafeOrCoffeeShop ;
-    schema:name "Арт Кафе" ;
-    schema:location "Прилеп" ;
-    schema:description "Уникатен кафе бар со изложби на локални уметници и жива музика." .
+    schema:name "Art Cafe" ;
+    schema:location "Prilep" ;
+    schema:description "A unique café bar featuring exhibitions by local artists and live music." .
 
-ex:Кафе_Бар_Глобус
+ex:Cafe_Bar_Globus
     a schema:CafeOrCoffeeShop ;
-    schema:name "Кафе Бар Глобус" ;
-    schema:location "Куманово" ;
-    schema:description "Современо кафе со одлична атмосфера и вкусни десерти." .
+    schema:name "Cafe Bar Globus" ;
+    schema:location "Kumanovo" ;
+    schema:description "A modern café with a great atmosphere and delicious desserts." .
 
-ex:Кафе_Бар_Елемент
+ex:Cafe_Bar_Element
     a schema:CafeOrCoffeeShop ;
-    schema:name "Кафе Бар Елемент" ;
-    schema:location "Тетово" ;
-    schema:description "Стилски кафе бар со иновативни коктели и пријатна музика." .
+    schema:name "Cafe Bar Element" ;
+    schema:location "Tetovo" ;
+    schema:description "A stylish café bar with innovative cocktails and pleasant music." .
 
-# Специјалитети
-ex:Ајвар
+# Specialties
+ex:Ajvar
     a schema:Specialty ;
-    schema:name "Ајвар" ;
-    schema:description "Традиционален македонски специјалитет направен од печени црвени пиперки и патлиџани." .
+    schema:name "Ajvar" ;
+    schema:description "A traditional Macedonian specialty made from roasted red peppers and eggplants." .
 
-ex:Тавче_Гравче
+ex:Tavche_Gravche
     a schema:Specialty ;
-    schema:name "Тавче Гравче" ;
-    schema:description "Популарно јадење од грав, кое се готви во земјен сад и се пече во рерна." .
+    schema:name "Tavche Gravche" ;
+    schema:description "A popular bean dish, baked in a clay pot and roasted in the oven." .
 
-ex:Пастрмајлија
+ex:Pastrmajlija
     a schema:Specialty ;
-    schema:name "Пастрмајлија" ;
-    schema:description "Македонска пита со месо, обично подготвена со свинско или јагнешко месо." .
+    schema:name "Pastrmajlija" ;
+    schema:description "A Macedonian flatbread with meat, typically prepared with pork or lamb." .
 
-ex:Сарма
+ex:Sarma
     a schema:Specialty ;
-    schema:name "Сарма" ;
-    schema:description "Јадење од кисела зелка или лозови листови полнети со ориз и месо." .
+    schema:name "Sarma" ;
+    schema:description "A dish made of pickled cabbage or grape leaves stuffed with rice and meat." .
 
-# Локални рецепти
-ex:Шопска_Салата
+# Local Recipes
+ex:Shopska_Salad
     a schema:Recipe ;
-    schema:name "Шопска Салата" ;
-    schema:recipeIngredient "Домат", "Краставица", "Пиперка", "Сирење", "Маслинки" ;
-    schema:recipeInstructions "Сите состојки се сечат на ситни парчиња и се мешаат. Се додава сирењето изрендано одозгора и се гарнира со маслинки." .
+    schema:name "Shopska Salad" ;
+    schema:recipeIngredient "Tomato", "Cucumber", "Pepper", "Cheese", "Olives" ;
+    schema:recipeInstructions "All ingredients are chopped into small pieces and mixed. The cheese is grated on top and garnished with olives." .
 
-ex:Кифли
+ex:Kifli
     a schema:Recipe ;
-    schema:name "Кифли" ;
-    schema:recipeIngredient "Брашно", "Млеко", "Масло", "Квасец", "Сол", "Шеќер" ;
-    schema:recipeInstructions "Се замесува тесто од сите состојки, се остава да стаса, па се формираат кифли. Се печат во загреана рерна на 180 степени додека не поруменат." .
+    schema:name "Kifli" ;
+    schema:recipeIngredient "Flour", "Milk", "Oil", "Yeast", "Salt", "Sugar" ;
+    schema:recipeInstructions "Dough is made from all the ingredients and left to rise. Rolls are then formed and baked in a preheated oven at 180 degrees until golden." .
 
-ex:Мусака
+ex:Moussaka
     a schema:Recipe ;
-    schema:name "Мусака" ;
-    schema:recipeIngredient "Компири", "Мелено месо", "Кромид", "Јајца", "Млеко" ;
-    schema:recipeInstructions "Компирите се сечат на кругови и се редат во тавче. Се додава пржено мелено месо со кромид, па повторно ред компири. Се прелива со јајца и млеко, и се пече во рерна." .
+    schema:name "Moussaka" ;
+    schema:recipeIngredient "Potatoes", "Minced meat", "Onion", "Eggs", "Milk" ;
+    schema:recipeInstructions "The potatoes are sliced into rounds and layered in a baking dish. Fried minced meat with onion is added, followed by another layer of potatoes. It is poured over with eggs and milk and baked in the oven." .
 
-ex:Зелник
+ex:Zelnik
     a schema:Recipe ;
-    schema:name "Зелник" ;
-    schema:recipeIngredient "Брашно", "Вода", "Сол", "Масло", "Спанаќ", "Сирење" ;
-    schema:recipeInstructions "Се замесува тесто од брашно, вода и сол. Се расукуваат кори, кои се полнат со спанаќ и сирење. Се редат во тавче и се печат во рерна." .
+    schema:name "Zelnik" ;
+    schema:recipeIngredient "Flour", "Water", "Salt", "Oil", "Spinach", "Cheese" ;
+    schema:recipeInstructions "Dough is made from flour, water, and salt. Sheets of dough are rolled out, filled with spinach and cheese, and layered in a baking dish. It is baked in the oven." .

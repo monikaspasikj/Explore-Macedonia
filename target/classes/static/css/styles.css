@@ -43,6 +43,22 @@ main {
 .destination p {
     margin: 0.5rem 0;
 }
+.experience {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    border-radius: 8px;
+}
+
+.experience h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+.experience p {
+    margin: 0.5rem 0;
+}
 
 p strong {
     font-weight: bold;

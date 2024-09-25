@@ -5,7 +5,7 @@ import org.apache.jena.util.FileManager;
 import org.example.model.dto.TouristDestinationDTO;
 import org.example.service.TouristDestinationService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpStatus;
+import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -16,7 +16,6 @@ import java.util.List;
 
 @Controller
 @RequestMapping("/tourist-destinations")
-@CrossOrigin(origins = "http://localhost:63342")
 public class TouristDestinationController {
 
     private final TouristDestinationService service;
@@ -26,27 +25,33 @@ public class TouristDestinationController {
         this.service = service;
     }
 
+    @GetMapping
+    public String rdfData() {
+        return "tourist-destinations";
+    }
+
     @GetMapping("/rdf")
     public ResponseEntity<String> getRdfData() {
         System.out.println("RDF data endpoint hit!");
 
-        org.apache.jena.rdf.model.Model model = ModelFactory.createDefaultModel();
+        org.apache.jena.rdf.model.Model modelRDF = ModelFactory.createDefaultModel();
         String filePath = "src/main/java/org/example/tourist_destinations.ttl";
-        FileManager.get().readModel(model, filePath, "TTL");
+        FileManager.get().readModel(modelRDF, filePath, "TTL");
 
         StringWriter out = new StringWriter();
-        model.write(out, "TURTLE");
+        modelRDF.write(out, "TURTLE");
 
-        return new ResponseEntity<>(out.toString(), HttpStatus.OK);
+        return ResponseEntity.ok()
+                .contentType(MediaType.parseMediaType("text/turtle"))
+                .body(out.toString());
     }
 
-
-    @GetMapping
-    public String getAllTouristDestinations(Model model) {
-        List<TouristDestinationDTO> destinations = service.getAllTouristDestinations();
-        model.addAttribute("destinations", destinations);
-        return "destinations/list";
-    }
+//    @GetMapping
+//    public String getAllTouristDestinations(Model model) {
+//        List<TouristDestinationDTO> destinations = service.getAllTouristDestinations();
+//        model.addAttribute("destinations", destinations);
+//        return "destinations/list";
+//    }
 
     @GetMapping("/{id}")
     public String getTouristDestinationById(@PathVariable Long id, Model model) {

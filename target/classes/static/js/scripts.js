@@ -56,3 +56,4 @@ function displayRdfData(rdfData, searchTerm = '') {
 
     rdfDisplayElement.innerHTML = destinationsHtml || '<p>No results found</p>';
 }
+

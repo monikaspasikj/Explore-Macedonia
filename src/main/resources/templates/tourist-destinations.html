@@ -1,18 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html xmlns:th="http://www.thymeleaf.org">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tourist Destinations</title>
-  <link rel="stylesheet" href="styles.css">
-  <script src="dist/rdflib.min.js"></script>
+  <link rel="stylesheet" href="/css/styles.css">
+  <script src="/js/dist/rdflib.min.js"></script>
 </head>
 <body>
 <header>
-  <h1>Tourist destinations</h1>
+  <h1>Tourist Destinations</h1>
 </header>
 <main>
-  <!-- Add search form for filtering by name -->
   <section id="search-form">
     <input type="text" id="search-input" placeholder="Search by name..." />
     <button id="search-button">Search</button>
@@ -22,6 +21,6 @@
     <!-- RDF data will be displayed here -->
   </section>
 </main>
-<script src="scripts.js"></script>
+<script src="/js/scripts.js"></script>
 </body>
 </html>

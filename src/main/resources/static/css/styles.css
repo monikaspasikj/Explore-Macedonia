@@ -49,26 +49,17 @@ p strong {
     color: #555;
 }
 
-.destination p:first-of-type {
-    margin-top: 1rem;
-}
-
-footer {
-    text-align: center;
-    padding: 1rem;
-    background: #333;
-    color: #fff;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-}
 #search-form {
     margin: 1rem 0;
+    text-align: center;
 }
 
 #search-input {
     padding: 0.5rem;
     width: 300px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
 }
 
 button {
@@ -77,6 +68,7 @@ button {
     color: #fff;
     border: none;
     cursor: pointer;
+    border-radius: 5px;
 }
 
 button:hover {

@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-<<<<<<< HEAD
-    <list default="true" id="f2cdef9f-ade1-486e-9411-3410ff2a4bfe" name="Changes" comment="Frontend configuration">
+    <list default="true" id="f2cdef9f-ade1-486e-9411-3410ff2a4bfe" name="Changes" comment="Frontend configuration"/>
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/config/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/config/WebConfig.java" afterDir="false" />
@@ -59,7 +58,6 @@
       <change beforePath="$PROJECT_DIR$/target/classes/org/example/service/impl/TouristDestinationServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/service/impl/TouristDestinationServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/templates/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/scripts.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/templates/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/styles.css" afterDir="false" />
->>>>>>> 140e7cbd5bc811f18678bbb08984953d047e2d67
       <change beforePath="$PROJECT_DIR$/target/classes/templates/tourist-destinations.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/tourist-destinations.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

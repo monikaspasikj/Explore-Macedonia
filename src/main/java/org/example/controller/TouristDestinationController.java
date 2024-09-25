@@ -53,12 +53,12 @@ public class TouristDestinationController {
 //        return "destinations/list";
 //    }
 
-    @GetMapping
-    public String getAllTouristDestinations(Model model) {
-        List<TouristDestinationDTO> destinations = service.getAllTouristDestinations();
-        model.addAttribute("destinations", destinations);
-        return "tourist-destinations";
-    }
+//    @GetMapping
+//    public String getAllTouristDestinations(Model model) {
+//        List<TouristDestinationDTO> destinations = service.getAllTouristDestinations();
+//        model.addAttribute("destinations", destinations);
+//        return "tourist-destinations";
+//    }
 
     @GetMapping("/{id}")
     public String getTouristDestinationById(@PathVariable Long id, Model model) {

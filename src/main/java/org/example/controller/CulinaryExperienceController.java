@@ -6,6 +6,7 @@ import org.example.model.dto.CulinaryExperienceDTO;
 import org.example.service.CulinaryExperienceService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
+import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -16,7 +17,6 @@ import java.util.List;
 
 @Controller
 @RequestMapping("/culinary-experiences")
-@CrossOrigin(origins = "http://localhost:63343")
 public class CulinaryExperienceController {
 
     private final CulinaryExperienceService service;
@@ -26,26 +26,33 @@ public class CulinaryExperienceController {
         this.service = service;
     }
 
+    @GetMapping
+    public String rdfData() {
+        return "culinaryexperience";
+    }
+
     @GetMapping("/rdf")
     public ResponseEntity<String> getRdfData() {
         System.out.println("RDF data endpoint hit!");
 
-        org.apache.jena.rdf.model.Model model = ModelFactory.createDefaultModel();
+        org.apache.jena.rdf.model.Model modelRDF = ModelFactory.createDefaultModel();
         String filePath = "src/main/java/org/example/culinary_experiences.ttl";
-        FileManager.get().readModel(model, filePath, "TTL");
+        FileManager.get().readModel(modelRDF, filePath, "TTL");
 
         StringWriter out = new StringWriter();
-        model.write(out, "TURTLE");
+        modelRDF.write(out, "TURTLE");
 
-        return new ResponseEntity<>(out.toString(), HttpStatus.OK);
+        return ResponseEntity.ok()
+                .contentType(MediaType.parseMediaType("text/turtle"))
+                .body(out.toString());
     }
 
-    @GetMapping
-    public String getAllCulinaryExperiences(Model model) {
-        List<CulinaryExperienceDTO> experiences = service.getAllCulinaryExperiences();
-        model.addAttribute("experiences", experiences);
-        return "culinary-experiences/list";
-    }
+//    @GetMapping
+//    public String getAllCulinaryExperiences(Model model) {
+//        List<CulinaryExperienceDTO> experiences = service.getAllCulinaryExperiences();
+//        model.addAttribute("experiences", experiences);
+//        return "culinary-experiences/list";
+//    }
 
     @GetMapping("/{id}")
     public String getCulinaryExperienceById(@PathVariable Long id, Model model) {
@@ -58,7 +65,7 @@ public class CulinaryExperienceController {
     public String findByName(@RequestParam String name, Model model) {
         List<CulinaryExperienceDTO> experiences = service.findByName(name);
         model.addAttribute("experiences", experiences);
-        return "culinary-experiences/list";
+        return "culinaryexperience";
     }
 
     @GetMapping("/search/by-location")

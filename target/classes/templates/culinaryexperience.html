@@ -1,22 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html xmlns:th="http://www.thymeleaf.org">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Culinary Experience</title>
-  <link rel="stylesheet" href="../static/css/styles.css">
-  <!-- Add the reference to rdflib.min.js -->
-  <script src="../static/js/dist/rdflib.min.js"></script>
+  <title>Culinary experiences</title>
+  <link rel="stylesheet" href="/css/styles.css">
+  <script src="/js/dist/rdflib.min.js"></script>
 </head>
 <body>
 <header>
-  <h1>Кулинарско искуство</h1>
+  <h1>Culinary experiences</h1>
 </header>
 <main>
+  <section id="search-form">
+    <input type="text" id="search-input" placeholder="Search by name..." />
+    <button id="search-button">Search</button>
+  </section>
+
   <section id="rdf-display">
     <!-- RDF data will be displayed here -->
   </section>
 </main>
-<script src="../static/js/scripts1.js"></script>
+<script src="/js/scripts1.js"></script>
 </body>
 </html>

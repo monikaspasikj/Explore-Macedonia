@@ -4,61 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f2cdef9f-ade1-486e-9411-3410ff2a4bfe" name="Changes" comment="Frontend configuration"/>
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/config/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/config/WebConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/controller/TouristDestinationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/controller/TouristDestinationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/culinaryexperience.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/culinaryexperience.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/dist/515.rdflib.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/dist/515.rdflib.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/dist/515.rdflib.min.js.LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/dist/515.rdflib.min.js.LICENSE.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/dist/515.rdflib.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/dist/515.rdflib.min.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/dist/789.rdflib.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/dist/789.rdflib.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/dist/rdflib.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/dist/rdflib.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/dist/rdflib.min.js.LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/dist/rdflib.min.js.LICENSE.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/dist/rdflib.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/dist/rdflib.min.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/scripts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/tourist-destinations.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/tourist-destinations.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Rdf/Culinary_experiences.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Rdf/Culinary_experiences.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Rdf/Cultural_heritage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Rdf/Cultural_heritage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Rdf/Routes_and_transport.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Rdf/Routes_and_transport.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Rdf/Tourist_destinations.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Rdf/Tourist_destinations.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/config/WebConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/config/WebConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/controller/CulinaryExperienceController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/controller/CulinaryExperienceController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/controller/CulturalHeritageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/controller/CulturalHeritageController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/controller/RoutesAndTransportController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/controller/RoutesAndTransportController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/controller/TouristDestinationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/controller/TouristDestinationController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/model/CulinaryExperience.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/model/CulinaryExperience.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/model/CulturalHeritage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/model/CulturalHeritage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/model/RoutesAndTransport$Route.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/model/RoutesAndTransport$Route.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/model/RoutesAndTransport$Transportation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/model/RoutesAndTransport$Transportation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/model/RoutesAndTransport.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/model/RoutesAndTransport.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/model/TouristDestination.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/model/TouristDestination.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/model/dto/CulinaryExperienceDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/model/dto/CulinaryExperienceDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/model/dto/CulturalHeritageDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/model/dto/CulturalHeritageDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/model/dto/RoutesAndTransportDTO$RouteDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/model/dto/RoutesAndTransportDTO$RouteDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/model/dto/RoutesAndTransportDTO$TransportationDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/model/dto/RoutesAndTransportDTO$TransportationDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/model/dto/TouristDestinationDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/model/dto/TouristDestinationDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/service/impl/CulinaryExperienceServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/service/impl/CulinaryExperienceServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/service/impl/CulturalHeritageServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/service/impl/CulturalHeritageServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/service/impl/RoutesAndTransportServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/service/impl/RoutesAndTransportServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/service/impl/TouristDestinationServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/service/impl/TouristDestinationServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/scripts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/styles.css" beforeDir="false" />
-=======
     <list default="true" id="f2cdef9f-ade1-486e-9411-3410ff2a4bfe" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/scripts1.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/controller/CulinaryExperienceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/controller/CulinaryExperienceController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/culinaryexperience.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/culinaryexperience.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/controller/TouristDestinationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/controller/TouristDestinationController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/repository/TouristDestinationRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/repository/TouristDestinationRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/service/TouristDestinationService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/service/TouristDestinationService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/service/impl/TouristDestinationServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/service/impl/TouristDestinationServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/scripts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/tourist-destinations.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/tourist-destinations.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,28 +47,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Martina/IdeaProjects/Explore-Macedonia/src/main/resources/templates",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.fileTypes",
-    "spring.configuration.checksum": "76a8df9d9ff3dcb9590422e6b1655a89",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Martina/IdeaProjects/Explore-Macedonia/src/main/resources/templates&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.fileTypes&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;76a8df9d9ff3dcb9590422e6b1655a89&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Martina\IdeaProjects\Explore-Macedonia\src\main\resources\templates" />

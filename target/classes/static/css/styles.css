@@ -27,22 +27,6 @@ main {
     margin-top: 1.5rem;
 }
 
-.destination {
-    background-color: #fff;
-    border: 1px solid #ddd;
-    padding: 1rem;
-    margin-bottom: 1.5rem;
-    border-radius: 8px;
-}
-
-.destination h3 {
-    margin-top: 0;
-    color: #333;
-}
-
-.destination p {
-    margin: 0.5rem 0;
-}
 .experience {
     background-color: #fff;
     border: 1px solid #ddd;
@@ -57,6 +41,23 @@ main {
 }
 
 .experience p {
+    margin: 0.5rem 0;
+}
+
+.destination {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    border-radius: 8px;
+}
+
+.destination h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+.destination p {
     margin: 0.5rem 0;
 }
 
